@@ -1,0 +1,27 @@
+/* StarRating.css */
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.star {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.star.filled {
+  color: #ffca28;
+}
+
+.star:hover {
+  color: #ffca28;
+}
